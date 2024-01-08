@@ -1,0 +1,64 @@
+2023-12-30 10:57:15.773  INFO 6848 --- [restartedMain] com.example.order.OrderApplication       : Starting OrderApplication using Java 17.0.8 on LAPTOP-MQGCMEVI with PID 6848 (C:\Users\vishal\Downloads\order\order\target\classes started by vishal in C:\Users\vishal\Downloads\order\order)
+2023-12-30 10:57:15.777  INFO 6848 --- [restartedMain] com.example.order.OrderApplication       : No active profile set, falling back to default profiles: default
+2023-12-30 10:57:15.893  INFO 6848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-30 10:57:15.893  INFO 6848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-30 10:57:17.115  INFO 6848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-30 10:57:17.236  INFO 6848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2023-12-30 10:57:18.352  INFO 6848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-30 10:57:18.369  INFO 6848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-30 10:57:18.371  INFO 6848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-12-30 10:57:18.525  INFO 6848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-30 10:57:18.526  INFO 6848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2631 ms
+2023-12-30 10:57:19.487  INFO 6848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-30 10:57:20.108  INFO 6848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-30 10:57:21.734  INFO 6848 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-30 10:57:22.648  WARN 6848 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-30 10:57:22.859 DEBUG 6848 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-30 10:57:22.982 DEBUG 6848 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2023-12-30 10:57:23.040 DEBUG 6848 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-30 10:57:23.058 DEBUG 6848 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-30 10:57:23.261  INFO 6848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-30 10:57:23.322  INFO 6848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-30 10:57:23.339  INFO 6848 --- [restartedMain] com.example.order.OrderApplication       : Started OrderApplication in 8.324 seconds (JVM running for 9.756)
+2023-12-30 11:02:38.483  INFO 6848 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-30 11:02:38.539  INFO 6848 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-30 11:02:38.545  INFO 6848 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-30 11:02:38.568  INFO 6848 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-30 11:02:52.079  INFO 16604 --- [restartedMain] com.example.order.OrderApplication       : Starting OrderApplication using Java 17.0.8 on LAPTOP-MQGCMEVI with PID 16604 (C:\Users\vishal\Downloads\order\order\target\classes started by vishal in C:\Users\vishal\Downloads\order\order)
+2023-12-30 11:02:52.081  INFO 16604 --- [restartedMain] com.example.order.OrderApplication       : No active profile set, falling back to default profiles: default
+2023-12-30 11:02:52.185  INFO 16604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-30 11:02:52.188  INFO 16604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-30 11:02:53.325  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-30 11:02:53.452  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 4 JPA repository interfaces.
+2023-12-30 11:02:54.416  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-30 11:02:54.442  INFO 16604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-30 11:02:54.443  INFO 16604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-12-30 11:02:54.715  INFO 16604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-30 11:02:54.717  INFO 16604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2528 ms
+2023-12-30 11:02:55.614  INFO 16604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-30 11:02:56.205  INFO 16604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-30 11:02:57.665  INFO 16604 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-30 11:02:58.515  WARN 16604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-30 11:02:58.695 DEBUG 16604 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-30 11:02:58.853 DEBUG 16604 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2023-12-30 11:02:58.924 DEBUG 16604 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-30 11:02:58.941 DEBUG 16604 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-30 11:02:59.143  INFO 16604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-30 11:02:59.215  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-30 11:02:59.231  INFO 16604 --- [restartedMain] com.example.order.OrderApplication       : Started OrderApplication in 7.859 seconds (JVM running for 9.236)
+2023-12-30 11:04:26.757  INFO 16604 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-30 11:04:26.758  INFO 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-30 11:04:26.758 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-12-30 11:04:26.759 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-12-30 11:04:26.759 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-12-30 11:04:26.761 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a385505
+2023-12-30 11:04:26.762 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@29156fde
+2023-12-30 11:04:26.762 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-30 11:04:26.762  INFO 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-12-30 11:04:26.779 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/customer/cusid?cusId=SB1234680", parameters={masked}
+2023-12-30 11:04:26.790 DEBUG 16604 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.order.controller.CustomerController#getCustomerDetailsByCustomerId(String)
+2023-12-30 11:04:26.860  INFO 16604 --- [http-nio-8080-exec-2] c.example.order.service.CustomerService  : Find customer details
+2023-12-30 11:04:26.860 ERROR 16604 --- [http-nio-8080-exec-2] c.example.order.service.CustomerService  : error  customer details
+2023-12-30 11:04:27.120 DEBUG 16604 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-12-30 11:04:27.120 DEBUG 16604 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2023-12-30 11:04:27.121 DEBUG 16604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

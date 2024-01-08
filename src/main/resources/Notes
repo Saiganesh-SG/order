@@ -1,0 +1,144 @@
+Layer-  Each package is defined as layer,For each layer will logical associated class , Interface , 
+entity layer - where entity package - consists of pojo class which will related to tables 
+so the data stored permanently in database, Since java is volatile , data cannot be stored permanently
+For every entity package related pojo class separate table will be created 
+class -table will created 
+ private field or variables - separate column will be created 
+ instance or object - separate row will be inserted in table 
+   
+very important
+For each layer or package separate set of annotation needs to be define as developer we need to know that. 
+Annotation- it is also type defined at class level,method level,field level etc
+user defined annotation are used in AOP in SPRING BOOT
+For each layer separate set of predefined or system defined annotation needs to be defined in SPRING BOOT.
+There are standard annotation which are used in SPRING BOOT 
+pom xml dependency can be used as annotation-
+example lombok.Data annotation
+lombok is the dependency which used for creating setter and getter methods for private variables 
+@Data-it is annotation
+@Slf4j-It is a annotation used for logging purporse
+
+In springboot 
+aspected oriented programming in spring boot we use annotation 
+AOP  like security ,logging features are considered for projects considered as aspects 
+aspect of project we use annotation
+object oriented - it will be creating classes for real time entity.
+object of project we use class.
+annotation are used object aspects like logging , security etc
+
+@Entity-entity - pojo class that refers table data.
+@Table(name="account",catalog="bank") -That refers table account in bank database 
+@Data - automatic creation of setter and getter methods for the private fields  or variables of pojo class to avoid boilerplate code and
+present in lombok package.it also automatically creates parameterized constructor.
+@Column- private fields of pojo class are mapped to database table column 
+
+boiler plate code
+In computer programming, boilerplate code or boilerplate refers to sections of code that have to be included in many places with little or no alteration. It is often used when referring to languages that are considered verbose, i.e. the programmer must write a lot of code to do minimal jobs. 
+
+Bean -
+Beans are created at the class level,method level 
+There are lot of annotation which are used in bean
+
+spring boot- 
+mainly used for writing bussiness logic for client use cases without configuring dependency of the project 
+spring boot will take of the dependency like connecting to database etc , just developer we need to add the dependency for database connectivity 
+ or all the dependency required for the project in pom.xml, create different layer that is package start writing the business logic by defining 
+ class and interface in each and every layer or package - 
+
+ bootstrap is concept in css -where template will maintained for starting the project, The same is applied over spring 
+ that is why it is known as spring boot
+ projects without spring boot we need to do below for the projects 
+ server - we need to create configuration
+ servlet - we need to create configuration
+ database - we need to create configuration
+ security - we need to create configuration
+ 
+ In springboot is an framework where it is a collection of libraries where it as classes,interface,abstract class ,annotation etc 
+ Aspected oriented features - we need to use annotations 
+ object oriented features - we need use objectsl
+ 
+ In springboot, the main class will be used for initializing springboot. 
+ service package or layer will be seperate , certain class will be defined 
+ controller package or layer will be seperate , certain class will be defined 
+  -the main class point to controller , In controller if it hits endpoints further continues
+ 
+ Multiple layers or package are created in springboot so that it is easy test and modularity can maintained.S
+
+
+Design pattern
+mvc
+Singleton class -Only one instance of the class will be created and returned 
+factory class - Where multiple objects or instance will be created and returned based on the condition.
+
+Repository layer or package - 
+where we can perform dml operation at java layer itself , the orm feature implemented here only
+A separate interface needs to be created for the entity classes whose tables are going to be used for performing crud operations 
+c- create or insert statement r-read - which is select statement,u-update statement ,d-delete statement,
+The interfaces needs extend jpa interface with generics as  <entity classname or tablename,Integer>
+example -public interface CustomerRepository  extends JpaRepository<Customer,Integer>, once on extending JPA interface 
+the table related default queries(a separate query for each column or combination of column) will be available as template(means 
+as method) in interface.
+@Repository annotation creates bean for AccountRepository Interface
+
+orm-object relational mapping 
+entity layer represents object 
+orm is implemented in repository layer by defining interface in it for all the entity layer related class where dml operation is performed
+orm is performed at repository layer using JPA interface 
+
+
+spring boot framework
+
+spring core - performing crud operations in database
+spring  web- it is performing crud operations using gui and database
+spring batch - not widely used 
+
+
+service layer -
+@Autowired - service layer class is loosely coupled to repository layer interface
+example - AccountService wired AccountRepository
+
+what is a bean?
+it is similar to object where block of memory allocated for it
+bean is in singleton instance
+In spring only bean is created not object- doubt need to ask sai ganesh
+For a particular type like class,Interface,abstract class  only one bean can be created 
+bean can be created at user defined type level, method level
+Note-
+bean cannot be created for primitive type 
+
+
+
+difference between bean and object 
+
+object is created for class type only 
+bean is created for all the user defined types like class,Interface,abstract class etc    and methods as well. 
+only one bean can be created for a particular type or method. 
+multiple object can be created for class type
+
+Rest Api - 
+Where both http Request and response will happen using json in client - server architecture in web application 
+web application where http and https protocol uses only rest api
+postman-
+Testing rest api without GUI.
+http method types -
+We can able to send request body, configure headers.
+
+Now all the ui  or front end part of websites are using java script and jsp technology is oudated 
+CustomerVO-> VO means value objects 
+
+@AutoWired-it is used to loosely couple different beans and also gives singleton instance of bean(Not used with model, entity package related class o interfaces or types )
+
+Hibernate -It is a framework 
+it is used to execute complex select queries involves more than one table at java layer at jpa repository layer performs orm features 
+It is for executing complex select queires which involves more than one table like joins,sub-queries,inner queries etc
+Mainly used for orm mapping between entity class and database tables.
+it is used generate  entity class from database tables or vice versa -This hibernate  feature  is not used widely in real time, only it used a new project
+it is used generate ddl statements for database tables from entity class - This hibernate  feature is not used widely in real time, only it used a new project
+hibernate as 2 types of fetch -
+1 loosely fetch 
+2.Eager fetch 
+
+typecasting -
+It helps the compiler to use memory efficently 
+only super class inherited to sub class 
+only subclass can be typecasted to its superclass
